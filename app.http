@@ -1,0 +1,22 @@
+POST http://localhost:3002/initialize
+Content-Type: application/json
+
+{
+  "api1":"https://s3.amazonaws.com/roxiler.com/product_transaction.json"
+}
+
+###
+GET http://localhost:3002/api1/april
+
+###
+GET http://localhost:3002/api2/june
+
+###
+GET http://localhost:3002/api3/june
+
+###
+
+GET http://localhost:3002/api4/april
+
+###
+
